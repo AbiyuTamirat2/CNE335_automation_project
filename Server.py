@@ -35,4 +35,5 @@ class Server:
             line = stdout.readline()
             print(stderr.read().decode().splitlines())
 
-
+    # Close the SSH connection
+        self.ssh.close()

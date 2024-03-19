@@ -15,7 +15,7 @@ def print_program_info():
 if __name__ == '__main__':
     print_program_info()
     # TODO - Create a Server object
-    my_server = Server("34.219.128.55", r'C:\Users\abiyu\Downloads\Final_Project_key.pem')
+    my_server = Server("52.36.176.100", r'C:\Users\abiyu\Downloads\Final_Project_key.pem')
     # TODO - Call Ping method and print the results
     if my_server.ping():
         my_server.run_a_command("sudo apt update && sudo apt-get upgrade -y")
